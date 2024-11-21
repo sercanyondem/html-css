@@ -1,6 +1,13 @@
 * {
   font-family: sans-serif;
   line-height: 1.4;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
 }
 
 /* Product */
@@ -13,6 +20,7 @@
   background-color: #f7f7f7;
   font-size: 22px;
   text-transform: uppercase;
+  padding: 20px;
 }
 
 .price {
@@ -24,6 +32,11 @@
   text-transform: uppercase;
   color: #777;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 10px;
 }
 
 .more-info:link,
@@ -38,10 +51,17 @@
 
 .details-title {
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .details-list {
   list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
 }
 
 .add-cart {
@@ -49,8 +69,11 @@
   color: #fff;
   background-color: #000;
   border: none;
+  border-top: 4px black solid;
   font-size: 20px;
   cursor: pointer;
+  width: 100%;
+  padding: 10px;
 }
 
 .add-cart:hover {
